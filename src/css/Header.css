@@ -1,0 +1,40 @@
+.header{
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 5%;
+}
+
+.header a{
+    padding-left: 2%;
+    text-decoration: none;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: black;
+}
+
+.header a:first-child{
+    width:24%;
+    height: 10vh;
+}
+
+.header a:nth-child(2){
+    width:20%;
+    height: 10vh;
+}
+
+.header a:hover{
+    background-color: bisque;
+}
+
+.header a:hover{  
+    color: white;
+}
+
+.header a:active{
+    color: white;
+}
